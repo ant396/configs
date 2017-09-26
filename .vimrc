@@ -1,12 +1,21 @@
+filetype on
+
 set number
 set exrc
 set secure
 
+set smarttab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
+set autoindent
 set smartindent
+
+
+
+"Подсвечиваем все что можно подсвечивать
+let python_highlight_all = 1
 
 "Переносить целые слова
 set linebreak
@@ -16,8 +25,9 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=blue
 
 "settings for color
-syntax on
-colorscheme koehler
+syntax enable
+set background=dark
+colorscheme ron
 
 "set highlight of search results
 set hls
