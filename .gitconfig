@@ -1,0 +1,10 @@
+[user]
+	email = 3968204@gmail.com
+	name = anton svechnikov
+[core]
+	editor = vim
+	autocrlf = input
+[color]
+	ui = true
+[alias]
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
